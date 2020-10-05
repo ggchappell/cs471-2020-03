@@ -1,10 +1,10 @@
-// prettyprintsquare1_main.cpp
+// printsquare1_main.cpp
 // Glenn G. Chappell
 // 2020-10-02
-// Simple main program for function prettyPrintSquare, VERSION 1
+// Simple main program for function printSquare, VERSION 1
 
 
-#include "prettyprintsquare1.h"
+#include "printsquare1.h"
 #include <iostream>
 using std::cout;
 using std::endl;
@@ -12,16 +12,16 @@ using std::endl;
 
 int main()
 {
-    cout << "Calling prettyPrintSquare" << endl;
+    cout << "Calling printSquare" << endl;
 
     int n = 12;
     cout << endl;
     cout << "Parameter: " << n << endl;
-    prettyPrintSquare(n);
+    printSquare(n);
 
     n = 100;
     cout << endl;
     cout << "Parameter: " << n << endl;
-    prettyPrintSquare(n);
+    printSquare(n);
 }
 

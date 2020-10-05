@@ -1,20 +1,20 @@
-// prettyprintsquare1.h
+// printsquare1.h
 // Glenn G. Chappell
 // 2020-10-02
-// Header for function prettyPrintSquare, VERSION 1
+// Header for function printSquare, VERSION 1
 
-#ifndef FILE_PRETTYPRINTSQUARE1_H_INCLUDED
-#define FILE_PRETTYPRINTSQUARE1_H_INCLUDED
+#ifndef FILE_PRINTSQUARE1_H_INCLUDED
+#define FILE_PRINTSQUARE1_H_INCLUDED
 
 #include <string>    // For std::string, std::to_string
 #include <iostream>  // For std::cout, std::endl;
 
 
-// prettyPrintSquare
+// printSquare
 // Takes an int and pretty-prints its square to cout, surrounded by a
 // rectangle of asterisks, ending with a newline.
 inline
-void prettyPrintSquare(int n)
+void printSquare(int n)
 {
     std::string squarestr = std::to_string(n*n);
     std::string asterstr(squarestr.size()+4, '*');
@@ -28,5 +28,5 @@ void prettyPrintSquare(int n)
 }
 
 
-#endif //#ifndef FILE_PRETTYPRINTSQUARE1_H_INCLUDED
+#endif //#ifndef FILE_PRINTSQUARE1_H_INCLUDED
 
