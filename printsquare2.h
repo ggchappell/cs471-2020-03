@@ -8,7 +8,7 @@
 #define FILE_PRINTSQUARE2_H_INCLUDED
 
 #include <string>    // For std::string, std::to_string
-#include <iostream>  // For std::cout, std::endl;
+#include <iostream>  // For std::cout, std::endl
 
 
 // class Squarer
