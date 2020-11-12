@@ -1,5 +1,4 @@
 // merge_sort.h
-// Glenn G. Chappell
 // 2020-11-11
 //
 // Merge Sort (Recursive)
